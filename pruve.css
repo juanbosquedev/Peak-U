@@ -1,0 +1,36 @@
+:root{
+    --main:var(--bs-primary)
+}
+
+.header{
+    background-color: blue;
+}
+
+.main{
+    background-color:var(--main);
+
+}
+.esfera {
+    width: 600px;
+    height: 300px; /* Mitad de la altura de la esfera */
+    border-radius: 300px 300px 0 0; /* Forma semicircular */
+    background: conic-gradient(from 90deg, #fa7436 50%, rgb(237, 237, 243) 50%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+  
+.footer{
+    background-color: orange;
+
+}
+body section{
+    color:aliceblue;
+}
+body{
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
