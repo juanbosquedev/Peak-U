@@ -1,0 +1,45 @@
+1. .flat()
+El método .flat() crea un nuevo array con todos los elementos de sub-arrays concatenados recursivamente hasta una profundidad especificada.
+
+javascript
+Copy code
+const array = [1, 2, [3, 4, [5, 6]]];
+console.log(array.flat());
+// Salida: [1, 2, 3, 4, [5, 6]]
+
+console.log(array.flat(2));
+// Salida: [1, 2, 3, 4, 5, 6]
+Explicación: En el primer console.log, .flat() se utiliza sin argumentos, lo que significa que aplanará el array a una profundidad de 1 por defecto. En el segundo console.log, .flat(2) aplana el array hasta una profundidad de 2, eliminando los sub-arrays hasta ese nivel.
+
+2. .map()
+El método .map() crea un nuevo array con los resultados de la llamada a una función proporcionada en cada elemento del array.
+
+javascript
+Copy code
+const array = [1, 2, 3, 4];
+const mapResult = array.map(x => x * 2);
+console.log(mapResult);
+// Salida: [2, 4, 6, 8]
+Explicación: .map() toma cada elemento x del array y aplica la función x * 2, creando un nuevo array con los resultados.
+
+3. .filter()
+El método .filter() crea un nuevo array con todos los elementos que pasan la prueba implementada por la función proporcionada.
+
+javascript
+Copy code
+const array = [1, 2, 3, 4, 5];
+const filterResult = array.filter(x => x > 3);
+console.log(filterResult);
+// Salida: [4, 5]
+Explicación: .filter() revisa cada elemento x del array y retorna un nuevo array que contiene solo aquellos elementos para los cuales la condición x > 3 es verdadera.
+
+4. .some()
+El método .some() verifica si al menos un elemento del array cumple con la prueba implementada por la función proporcionada. Retorna true si al menos un elemento pasa la prueba, y false si ninguno lo hace.
+
+javascript
+Copy code
+const array = [1, 2, 3, 4, 5];
+const someResult = array.some(x => x > 4);
+console.log(someResult);
+// Salida: true
+Explicación: .some() evalúa cada elemento x del array hasta que encuentra uno que cumple la condición x > 4. En este caso, retorna true porque el elemento 5 cumple con la condición.
