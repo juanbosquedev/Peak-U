@@ -1,12 +1,13 @@
-body{
-    padding-left: 13%;
-    padding-right: 13%;
-}
-
-
-
-.section-second{
-    background-color: #F7F8FC;
-    height: 724px;
-
+.cuadro-blanco {
+  background-color: red; /* Color de fondo rojo */
+  color: white; /* Color de texto blanco */
+  border-radius: 10%; /* Bordes circulares */
+  width: 100px; /* Ancho del cuadro */
+  height: 100px; /* Altura del cuadro */
+  display: flex; /* Utiliza Flexbox para centrar el contenido */
+  align-items: center; /* Centra el contenido verticalmente */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  text-align: center; /* Asegura que el texto esté centrado si ocupa más de una línea */
+  padding: 20px; /* Añade algo de padding alrededor del texto */
+  box-sizing: border-box; /* Asegura que el padding no afecte las dimensiones establecidas */
 }
