@@ -1,0 +1,36 @@
+
+
+.section-second {
+  background-color: #F7F8FC;
+  height: 724px;
+}
+:root {
+  --main: var(--bs-primary);
+}
+li{
+    margin:0;
+    padding:0;
+}
+
+.header {
+  background-color: blue;
+}
+li{
+    color:#222222;
+}
+.main {
+  background-color: var(--main);
+}
+.esfera {
+  margin-top: 98px;
+  margin-left: 65px;
+  width: 85%;
+  height: 85%;
+  border-radius: 50%; /* Hacer un círculo perfecto */
+  background: conic-gradient(from 90deg, #fa7436 50%, #f7f8fc 50%);
+}
+
+.footer {
+  background-color: orange;
+}
+
