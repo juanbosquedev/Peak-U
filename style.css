@@ -14,7 +14,7 @@ body{
     border-radius: 16px;
     margin: 80px;
     background-color: #FA7436;
-    width: 1170.25px;
+    width: 1170px;
     height: 416px;
     position: relative;
 }
@@ -45,11 +45,14 @@ body{
     line-height: 62px;
     letter-spacing: 0em;
     text-align: center;
+    padding-top: 50px;
+    padding-left: 100px;
 }
 /* Estilos para la barra de búsqueda */
 .search-container {
   max-width: 674px;
   margin: 20px auto;
+  margin-top: 70px;
 }
 
 /* Estilos para el contenedor flex que envuelve el campo de entrada y el botón */
