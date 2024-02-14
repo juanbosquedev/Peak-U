@@ -6,7 +6,7 @@
 
     <title>work group</title>
 
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -17,12 +17,15 @@
   </head>
   <body>
     <section
-      class="section-first"
-      style="font-family: Poppins, sans-serif; background-color: #fefcfb"
+      class="section-first pb-5"
+      style="font-family: Poppins; background-color: #fefcfb"
     >
-      <nav class="d-flex flex-row navbar" style="height: 114px">
+      <nav
+        class="d-flex flex-row navbar pb-5 pt-5"
+        style="height: 114px; left: 21%; width: 60%"
+      >
         <img src="./img/firstSection/Logo.png" alt="logo" />
-        <ol class="d-flex flex-row navbar-nav col-4" style="margin-left: 160px">
+        <ol class="flex-row navbar-nav col-4">
           <li class="flex-md-fill nav-item">Home</li>
           <li class="flex-md-fill nav-item">About</li>
           <li class="flex-md-fill nav-item">Destination</li>
@@ -30,12 +33,16 @@
           <li class="flex-md-fill nav-item">Blog</li>
         </ol>
         <span>
-          <button type="button" class="btn" style="height: 50px; width: 160px">
+          <button
+            type="button"
+            class="btn col-1"
+            style="height: 50px; width: 160px"
+          >
             <span style="color: #fd8d3a">Login</span>
           </button>
 
           <button
-            class="btn"
+            class="btn col-1"
             style="
               background-color: #fd8d3a;
               color: antiquewhite;
@@ -47,174 +54,487 @@
           </button>
         </span>
       </nav>
-    </section>
-    <section class="section-second">
-      <main>
-        <div class="d-flex">
-          <div class="container">
-            <p
+      <main
+        class="mt-5"
+        style="
+          position: relative;
+          font-family: Poppins;
+          background-color: #fefcfb;
+          left: 18%;
+          width: 65%;
+        "
+      >
+        <div class="container">
+          <div class="row">
+            <div
+              class="col"
               style="
+                height: 100%;
+                align-content: space-evenly;
+                padding-left: 4rem;
+              "
+            >
+              <p
+                style="
+                  margin-top: 7%;
+                  font-family: Volkhov;
+                  font-weight: 700;
+                  line-height: 70px;
+                  font-size: 64px;
+                  color: #222222;
+                "
+              >
+                Get started your exciting
+                <span style="color: #fa7436">journey</span> with us.
+              </p>
+              <p
+                class="lh-base"
+                style="
+                  margin-top: 7%;
+                  font-family: Poppins;
+                  font-weight: 400;
+                  line-height: 20px;
+                  font-size: 20px;
+                  color: #666;
+                "
+              >
+                A Team of experienced tourism professionals will provide you
+                with the best advice and tips for your desire place.
+              </p>
+              <button
+                class="btn align-bottom"
+                style="
+                  margin-top: 7%;
+                  font-size: 18px;
+                  color: #fd8d3a;
+                  border-radius: 5px;
+                  border: 1px solid #fa7436;
+                  height: 60px;
+                  width: 178px;
+                  background-color: #ffffff;
+                "
+              >
+                Discover Now
+              </button>
+            </div>
+            <div class="col" style="position: relative">
+              <img
+                src="./img/firstSection/turist-image.png"
+                alt="Turist-image"
+                style="
+                  position: absolute;
+                  left: 20%;
+                  top: 4%;
+                  height: 500px;
+                  display: flex;
+                  justify-content: center;
+                  align-content: center;
+                "
+              />
+              <img
+                src="./img/firstSection/bg-image.png"
+                alt="Bg-Image"
+                style="
+                  position: absolute;
+                  left: 4%;
+                  width: 120%;
+                  height: 500px;
+                  padding-right: 3rem;
+                "
+              />
+              <div class="esfera"></div>
+            </div>
+
+            <div
+              class="container"
+              style="
+                background-color: #ffffff;
+                margin-top: 8%;
+                margin-left: 18%;
+                padding: 2rem;
+                width: 100%;
+              "
+            >
+              <div class="row" style="background-color: #ffffff">
+                <div class="col">
+                  <div class="row">
+                    <div class="col">
+                      <div>
+                        <h4
+                          style="
+                            background-color: #ffffff;
+                            font-family: Poppins;
+                            font-weight: 500;
+                            line-height: 24px;
+                            font-size: 16px;
+                            color: #222;
+                          "
+                        >
+                          Loaction<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="#fa7436"
+                            class="bi bi-chevron-down"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                            />
+                          </svg>
+                        </h4>
+                        <h6
+                          style="
+                            background-color: #ffffff;
+                            font-family: Poppins;
+                            font-weight: 400;
+                            line-height: 18px;
+                            font-size: 12px;
+                            color: #666;
+                          "
+                        >
+                          Number of guest
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div>
+                        <h4
+                          style="
+                            background-color: #ffffff;
+                            font-family: Poppins;
+                            font-weight: 500;
+                            line-height: 24px;
+                            font-size: 16px;
+                            color: #222;
+                          "
+                        >
+                          Date<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="#fa7436"
+                            class="bi bi-chevron-down"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                            />
+                          </svg>
+                        </h4>
+                        <h6
+                          style="
+                            background-color: #ffffff;
+                            font-family: Poppins;
+                            font-weight: 400;
+                            line-height: 18px;
+                            font-size: 12px;
+                            color: #666;
+                          "
+                        >
+                          When you will go
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div>
+                        <h4
+                          style="
+                            background-color: #ffffff;
+                            font-family: Poppins;
+                            font-weight: 500;
+                            line-height: 24px;
+                            font-size: 16px;
+                            color: #222;
+                          "
+                        >
+                          Guest<svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="#fd8d3a"
+                            class="bi bi-chevron-down"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                            />
+                          </svg>
+                        </h4>
+                        <h6
+                          style="
+                            background-color: #ffffff;
+                            font-family: Poppins;
+                            font-weight: 400;
+                            line-height: 18px;
+                            font-size: 12px;
+                            color: #666;
+                          "
+                        >
+                          Where are yo going
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col justify-content-end">
+                  <button
+                    type="button"
+                    class="btn"
+                    style="
+                      color: #fa7436;
+                      border-radius: 5px;
+                      background-color: #fa7436;
+                      height: 60px;
+                      width: 165px;
+                    "
+                  >
+                    <span
+                      style="
+                        color: #ffffff;
+                        font-size: 18px;
+                        font-weight: 500;
+                        font-family: Poppins;
+                      "
+                      >Explore here</span
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+    <section
+      class="section-third"
+      style="background-color: #f7f8fc; position: relative; left: 3%"
+    >
+      <div class="container text-center pt-5 pb-5">
+        <div class="row">
+          <div class="justify-content-center">
+            <p
+              class="text-center"
+              style="
+                margin-top: 5%;
                 font-family: Volkhov;
-                font-weight: 700px;
-                line-height: 70px;
-                font-size: 64px;
+                font-weight: 700;
+                line-height: 54px;
+                font-size: 48px;
                 color: #222222;
               "
             >
-              Get started your exciting
-              <span style="color: #fa7436">journey</span> with us.
+              Things you need
+              <span style="color: #fa7436">to do</span>
+              <img
+                class="ps-5 pt-4"
+                style="height: 15%; position: absolute"
+                src="./img/sectondSection/plans.png"
+                alt="plans"
+              />
             </p>
-            <p
-              class="row ms-1 me-1"
+            <div class="row col-12 justify-content-center">
+              <p
+                class="text-center col-4 pb-5"
+                style="
+                  margin-top: 2%;
+                  font-family: Poppins;
+                  font-weight: 400;
+                  line-height: 32x;
+                  font-size: 18px;
+                  color: #666;
+                "
+              >
+                We ensure that you'll embark on a perfectly planned, safe
+                vacation at price you can affoard
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-3 mb-5">
+          <div class="col">
+            <div
+              class="card h-100"
               style="
+                border: none;
+                text-align: start;
+                padding: 1rem 1.5rem;
+                width: 86%;
+              "
+            >
+              <img
+                src="./img/sectondSection/icon-sign-up.png"
+                style="margin: 1rem; height: 4vh; width: 2vw"
+                class="card"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="
+                    margin-top: 7%;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    line-height: 34px;
+                    font-size: 24px;
+                    color: #222222;
+                  "
+                >
+                  Sign up
+                </h5>
+                <p
+                  class="card-text"
+                  style="
+                    margin-top: 7%;
+                    font-family: Poppins;
+                    font-weight: 400;
+                    line-height: 26px;
+                    font-size: 16px;
+                    color: #666;
+                  "
+                >
+                  Completes all the work associated with planning an processing
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card h-100"
+              style="
+                border: none;
+                text-align: start;
+                padding: 1rem 1.5rem;
+                width: 86%;
+              "
+            >
+              <img
+                src="./img/sectondSection/icon-wallet.png"
+                style="margin: 1rem; height: 4vh; width: 2vw"
+                class="card"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="
+                    margin-top: 7%;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    line-height: 34px;
+                    font-size: 24px;
+                    color: #222222;
+                  "
+                >
+                  Worth of Money
+                </h5>
+                <p
+                  class="card-text"
+                  style="
+                    margin-top: 7%;
+                    font-family: Poppins;
+                    font-weight: 400;
+                    line-height: 26px;
+                    font-size: 16px;
+                    color: #666;
+                  "
+                >
+                  After syccessful acces then book from exclusive deals &
+                  pricing
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card h-100"
+              style="
+                border: none;
+                text-align: start;
+                padding: 1rem 1.5rem;
+                width: 86%;
+              "
+            >
+              <img
+                src="./img/sectondSection/icon-mapPoin.png"
+                style="margin: 1rem; height: 4vh; width: 2vw"
+                class="card"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style="
+                    margin-top: 7%;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    line-height: 34px;
+                    font-size: 24px;
+                    color: #222222;
+                  "
+                >
+                  Exciting Travel
+                </h5>
+                <p
+                  class="card-text"
+                  style="
+                    margin-top: 7%;
+                    font-family: Poppins;
+                    font-weight: 400;
+                    line-height: 26px;
+                    font-size: 16px;
+                    color: #666;
+                  "
+                >
+                  Start and explore a wilde range of exciting travel experience
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-fourth" style="background-color: #fefcfb">
+      <div
+        class="container text-center col-lg-12 pt-3 justify-content-center"
+        style="position: relative; left: 3%"
+      >
+        <div class="row justify-content-center">
+          <div class="mt-5 mb-4">
+            <h3
+              style="
+                font-family: Volkhov;
+                font-weight: 700;
+                line-height: 54px;
+                font-size: 48px;
+                color: #222222;
+              "
+            >
+              Exclusive <b style="color: #fa7436">deals & discounts</b>
+            </h3>
+            <p
+              style="
+                margin-top: 2%;
                 font-family: Poppins;
-                font-weight: 400px;
-                line-height: 20px;
-                font-size: 20px;
+                font-weight: 400;
+                line-height: 32x;
+                font-size: 18px;
                 color: #666;
               "
             >
-              A Team of experienced tourism professionals will provide you with
-              the best advice and tips for your desire place.
-            </p>
-            <button
-              class="btn"
-              style="
-                color: #fa7436;
-                border-radius: 5px;
-                border: 1px solid #fa7436;
-                height: 60px;
-                width: 178px;
-              "
-            >
-              Discover Now
-            </button>
-          </div>
-          <div>
-            <img src="./img/firstSection/turist-image.png" alt="Turist-image" />
-            <img
-              src="./img/firstSection/bg-image.png"
-              alt="Bg-Image"
-              style="position: absolute; left: 50%; width: 900px; height: 500px"
-            />
-          </div>
-        </div>
-
-        <footer>
-          <ol>
-            <li>
-              <h4
-                style="
-                  font-family: Poppins;
-                  font-weight: 500px;
-                  line-height: 24px;
-                  font-size: 16px;
-                  color: #222;
-                "
-              >
-                Loaction
-              </h4>
-              <h6
-                style="
-                  font-family: Poppins;
-                  font-weight: 400px;
-                  line-height: 18px;
-                  font-size: 12px;
-                  color: #666;
-                "
-              >
-                Number of guest
-              </h6>
-            </li>
-            <li>
-              <h4
-                style="
-                  font-family: Poppins;
-                  font-weight: 500px;
-                  line-height: 24px;
-                  font-size: 16px;
-                  color: #222;
-                "
-              >
-                Date
-              </h4>
-              <h6
-                style="
-                  font-family: Poppins;
-                  font-weight: 400px;
-                  line-height: 18px;
-                  font-size: 12px;
-                  color: #666;
-                "
-              >
-                When you will go
-              </h6>
-            </li>
-            <li>
-              <h4
-                style="
-                  font-family: Poppins;
-                  font-weight: 500px;
-                  line-height: 24px;
-                  font-size: 16px;
-                  color: #222;
-                "
-              >
-                Guest
-              </h4>
-              <h6
-                style="
-                  font-family: Poppins;
-                  font-weight: 400px;
-                  line-height: 18px;
-                  font-size: 12px;
-                  color: #666;
-                "
-              >
-                Where are yo going
-              </h6>
-            </li>
-
-            <button
-              type="button"
-              class="btn"
-              style="
-                color: #fa7436;
-                border-radius: 5px;
-                background-color: #fa7436;
-                height: 60px;
-                width: 165px;
-              "
-            >
-              <span
-                style="
-                  color: #ffffff;
-                  font-size: 18px;
-                  font-weight: 500px;
-                  font-family: Poppins;
-                "
-                >Explore here</span
-              >
-            </button>
-          </ol>
-        </footer>
-      </main>
-    </section>
-    <section class="section-second">HOLA2</section>
-    <section>
-      <div class="container text-center mt-5">
-        <div class="row justify-content-center">
-          <div class="mt-5 mb-4">
-            <h3 style="font-family: 'Times New Roman'; font-weight: bold">
-              Exclusive <span style="color: #fd8d3a">deals & discounts</span>
-            </h3>
-            <p style="font-size: 10px">
               Discover our fantastic early booking discounts<br />
               & start planning your journey
             </p>
           </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card" style="margin-bottom: 5px; width: 145px">
+          <div class="col-lg-3 col-md-2 col-sm-1">
+            <div
+              class="card"
+              style="margin-bottom: 5px; width: 270px; height: 426px"
+            >
               <img
                 src="./img/mid/Card-1.png"
                 class="card-img-top"
@@ -225,55 +545,78 @@
                 <div class="d-flex justify-content-between align-items-center">
                   <h6
                     class="card-title mb-2"
-                    style="font-size: 12px; font-weight: bold"
+                    style="font-size: 24px; font-weight: 500; line-height: 26px"
                   >
                     Madrid
                   </h6>
                   <svg
                     onclick=""
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="10"
+                    width="16"
+                    height="16"
                     fill="yellow"
                     class="bi bi-star-fill mb-2"
                     viewBox="0 0 16 16"
-                    style="margin-left: 40px"
+                    style="position: relative; right: -45px"
                   >
                     <path
                       d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
                     />
                   </svg>
-                  <h6 class="card-text mb-2" style="font-size: 10px">4.8</h6>
+                  <h6
+                    class="card-text mb-2"
+                    style="
+                      font-family: Poppins;
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 24px;
+                    "
+                  >
+                    4.8
+                  </h6>
                 </div>
-                <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex pt-4 align-items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="9"
-                    height="9"
-                    fill="currentColor"
-                    class="bi bi-geo-alt"
+                    width="14"
+                    height="14"
+                    fill="#999999"
+                    class="bi bi-geo-alt-fill"
                     viewBox="0 0 16 16"
                   >
                     <path
-                      d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
-                    />
-                    <path
-                      d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                      d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
                     />
                   </svg>
-                  <h6 class="card-text mb-0" style="font-size: 10px">Spain</h6>
-                  <h6 class="card-text mb-0 ms-4" style="font-size: 10px">
-                    <s style="color: gray">$950</s>
+                  <h6
+                    class="card-text ps-2 mb-0"
+                    style="
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 20px;
+                      color: #666666;
+                    "
+                  >
+                    Spain
+                  </h6>
+                  <h6
+                    class="card-text mb-0 ms-4"
+                    style="font-size: 16px; position: absolute; right: 23%"
+                  >
+                    <s style="color: #666666">$950</s>
                   </h6>
                   <h6
                     class="card-text"
                     style="
-                      font-size: 10px;
+                      font-family: Poppins;
+                      font-size: 16px;
+                      line-height: 24px;
+                      font-weight: 600;
                       background-color: #f8d1b4;
-                      padding: 2px;
-                      margin: 2px;
+                      position: absolute;
+                      right: 7%;
                       border-radius: 4px;
-                      color: #fd8d3a;
+                      color: #fa7436;
                     "
                   >
                     $850
@@ -282,70 +625,95 @@
               </div>
             </div>
           </div>
-
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card" style="margin-bottom: 5px; width: 145px">
+          <div
+            class="col-lg-3 col-md-2 col-sm-1 d-flex justify-content-between"
+          >
+            <div
+              class="card"
+              style="margin-bottom: 5px; width: 270px; height: 426px"
+            >
               <img
                 src="./img/mid/Card-2.png"
                 class="card-img-top"
                 alt="Firenze"
                 style="width: 100%; height: auto"
               />
-              <div class="card-body" style="height: 71px">
-                <div
-                  class="d-flex justify-content-between align-items-center mb-1"
-                >
+              <div class="card-body" style="height: 69px">
+                <div class="d-flex justify-content-center align-items-center">
                   <h6
                     class="card-title mb-2"
-                    style="font-size: 12px; font-weight: bold"
+                    style="font-size: 24px; font-weight: 500; line-height: 26px"
                   >
                     Firenze
                   </h6>
                   <svg
                     onclick=""
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="10"
+                    width="16"
+                    height="16"
                     fill="yellow"
                     class="bi bi-star-fill mb-2"
                     viewBox="0 0 16 16"
-                    style="margin-left: 40px"
+                    style="position: relative; right: -45px"
                   >
                     <path
                       d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
                     />
                   </svg>
-                  <h6 class="card-text mb-2" style="font-size: 10px">4.5</h6>
+                  <h6
+                    class="card-text mb-2"
+                    style="
+                      font-family: Poppins;
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 24px;
+                    "
+                  >
+                    4.5
+                  </h6>
                 </div>
-                <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex pt-4 align-items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="9"
-                    height="9"
-                    fill="currentColor"
-                    class="bi bi-geo-alt"
+                    width="14"
+                    height="14"
+                    fill="#999999"
+                    class="bi bi-geo-alt-fill"
                     viewBox="0 0 16 16"
                   >
                     <path
-                      d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
-                    />
-                    <path
-                      d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                      d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
                     />
                   </svg>
-                  <h6 class="card-text mb-0" style="font-size: 10px">Italy</h6>
-                  <h6 class="card-text mb-0 ms-4" style="font-size: 10px">
-                    <s style="color: gray">$850</s>
+                  <h6
+                    class="card-text ps-2 mb-0"
+                    style="
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 20px;
+                      color: #666666;
+                    "
+                  >
+                    Italy
+                  </h6>
+                  <h6
+                    class="card-text mb-0 ms-4"
+                    style="font-size: 16px; position: absolute; right: 23%"
+                  >
+                    <s style="color: #666666">$850</s>
                   </h6>
                   <h6
                     class="card-text"
                     style="
-                      font-size: 10px;
+                      font-family: Poppins;
+                      font-size: 16px;
+                      line-height: 24px;
+                      font-weight: 600;
                       background-color: #f8d1b4;
-                      padding: 2px;
-                      margin: 2px;
+                      position: absolute;
+                      right: 7%;
                       border-radius: 4px;
-                      color: #fd8d3a;
+                      color: #fa7436;
                     "
                   >
                     $750
@@ -355,69 +723,93 @@
             </div>
           </div>
 
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card" style="margin-bottom: 5px; width: 145px">
+          <div class="col-lg-3 col-md-4 col-lg-2">
+            <div
+              class="card"
+              style="margin-bottom: 5px; width: 270px; height: 426px"
+            >
               <img
                 src="./img//mid/Card-3.png"
                 class="card-img-top"
                 alt="Paris"
                 style="width: 100%; height: auto"
               />
-              <div class="card-body" style="height: 70px">
-                <div
-                  class="d-flex justify-content-between align-items-center mb-1"
-                >
+              <div class="card-body" style="height: 69px">
+                <div class="d-flex justify-content-between align-items-center">
                   <h6
                     class="card-title mb-2"
-                    style="font-size: 12px; font-weight: bold"
+                    style="font-size: 24px; font-weight: 500; line-height: 26px"
                   >
                     Paris
                   </h6>
                   <svg
                     onclick=""
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="10"
+                    width="16"
+                    height="16"
                     fill="yellow"
                     class="bi bi-star-fill mb-2"
                     viewBox="0 0 16 16"
-                    style="margin-left: 40px"
+                    style="position: relative; right: -45px"
                   >
                     <path
                       d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
                     />
                   </svg>
-                  <h6 class="card-text mb-2" style="font-size: 10px">4.4</h6>
+                  <h6
+                    class="card-text mb-2"
+                    style="
+                      font-family: Poppins;
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 24px;
+                    "
+                  >
+                    4.4
+                  </h6>
                 </div>
-                <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex pt-4 align-items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="9"
-                    height="9"
-                    fill="currentColor"
-                    class="bi bi-geo-alt"
+                    width="14"
+                    height="14"
+                    fill="#999999"
+                    class="bi bi-geo-alt-fill"
                     viewBox="0 0 16 16"
                   >
                     <path
-                      d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
-                    />
-                    <path
-                      d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                      d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
                     />
                   </svg>
-                  <h6 class="card-text mb-0" style="font-size: 10px">France</h6>
-                  <h6 class="card-text mb-0 ms-3" style="font-size: 10px">
-                    <s style="color: gray">$699</s>
+                  <h6
+                    class="card-text ps-2 mb-0"
+                    style="
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 20px;
+                      color: #666666;
+                    "
+                  >
+                    France
+                  </h6>
+                  <h6
+                    class="card-text mb-0 ms-3"
+                    style="font-size: 16px; position: absolute; right: 23%"
+                  >
+                    <s style="color: #666666">$699</s>
                   </h6>
                   <h6
                     class="card-text"
                     style="
-                      font-size: 10px;
+                      font-family: Poppins;
+                      font-size: 16px;
+                      line-height: 24px;
+                      font-weight: 600;
                       background-color: #f8d1b4;
-                      padding: 2px;
-                      margin: 2px;
+                      position: absolute;
+                      right: 7%;
                       border-radius: 4px;
-                      color: #fd8d3a;
+                      color: #fa7436;
                     "
                   >
                     $599
@@ -427,69 +819,93 @@
             </div>
           </div>
 
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card" style="margin-bottom: 5px; width: 145px">
+          <div class="col-lg-3 col-md-4 col-lg-2">
+            <div
+              class="card"
+              style="margin-bottom: 5px; width: 270px; height: 426px"
+            >
               <img
                 src="./img/mid/Card-4.png"
                 class="card-img-top"
                 alt="London"
                 style="width: 100%; height: auto"
               />
-              <div class="card-body" style="height: 70px">
-                <div
-                  class="d-flex justify-content-between align-items-center mb-1"
-                >
+              <div class="card-body" style="height: 69px">
+                <div class="d-flex justify-content-between align-items-center">
                   <h6
                     class="card-title mb-2"
-                    style="font-size: 12px; font-weight: bold"
+                    style="font-size: 24px; font-weight: 500; line-height: 26px"
                   >
                     London
                   </h6>
                   <svg
                     onclick=""
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="10"
+                    width="16"
+                    height="16"
                     fill="yellow"
                     class="bi bi-star-fill mb-2"
                     viewBox="0 0 16 16"
-                    style="margin-left: 40px"
+                    style="position: relative; right: -45px"
                   >
                     <path
                       d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
                     />
                   </svg>
-                  <h6 class="card-text mb-2" style="font-size: 10px">4.8</h6>
+                  <h6
+                    class="card-text mb-2"
+                    style="
+                      font-family: Poppins;
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 24px;
+                    "
+                  >
+                    4.8
+                  </h6>
                 </div>
-                <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex pt-4 align-items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="9"
-                    height="9"
-                    fill="currentColor"
-                    class="bi bi-geo-alt"
+                    width="14"
+                    height="14"
+                    fill="#999999"
+                    class="bi bi-geo-alt-fill"
                     viewBox="0 0 16 16"
                   >
                     <path
-                      d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
-                    />
-                    <path
-                      d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                      d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
                     />
                   </svg>
-                  <h6 class="card-text mb-0" style="font-size: 10px">UK</h6>
-                  <h6 class="card-text mb-0 ms-4" style="font-size: 10px">
-                    <s style="color: gray">$850</s>
+                  <h6
+                    class="card-text ps-2 mb-0"
+                    style="
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 20px;
+                      color: #666666;
+                    "
+                  >
+                    UK
+                  </h6>
+                  <h6
+                    class="card-text mb-0 ms-4"
+                    style="font-size: 16px; position: absolute; right: 23%"
+                  >
+                    <s style="color: #666666">$850</s>
                   </h6>
                   <h6
                     class="card-text"
                     style="
-                      font-size: 10px;
+                      font-family: Poppins;
+                      font-size: 16px;
+                      line-height: 24px;
+                      font-weight: 600;
                       background-color: #f8d1b4;
-                      padding: 2px;
-                      margin: 2px;
+                      position: absolute;
+                      right: 7%;
                       border-radius: 4px;
-                      color: #fd8d3a;
+                      color: #fa7436;
                     "
                   >
                     $850
@@ -498,11 +914,12 @@
               </div>
             </div>
           </div>
-          <div class="mt-3 mb-5">
+
+          <div class="m-5 d-flex justify-content-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
+              width="26"
+              height="26"
               fill="currentColor"
               class="bi bi-arrow-left-circle-fill me-2"
               viewBox="0 0 16 16"
@@ -515,8 +932,8 @@
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
+              width="26"
+              height="26"
               fill="currentColor"
               class="bi bi-arrow-right-circle-fill"
               viewBox="0 0 16 16"
@@ -530,34 +947,49 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="section-fifth pt-5" style="position: relative; left: 3%">
       <div class="container text-center mt-4 mb-5">
         <div class="row justify-content-center">
-          <div class="col-12 mt-5">
+          <div class="col-lg- 12 mt-5">
             <div class="d-flex align-items-center justify-content-center">
               <div style="margin-left: 100px">
-                <h3 style="font-family: 'Times New Roman'; font-weight: bold">
-                  Best <span style="color: #fd8d3a">vacation plan</span>
+                <h3
+                  style="
+                    font-family: Volkhov;
+                    font-weight: 700;
+                    line-height: 54px;
+                    font-size: 48px;
+                    color: #222222;
+                  "
+                >
+                  Best <b style="color: #fa7436">vacation plan</b>
                 </h3>
                 <p
-                  style="font-size: 11px; margin-right: 30px; margin-left: 30px"
+                  style="
+                    margin-top: 7%;
+                    font-family: Poppins;
+                    font-weight: 400;
+                    line-height: 32x;
+                    font-size: 18px;
+                    color: #666;
+                  "
                 >
                   Plan your vacation with our travel agency. Choose<br />
                   among hundreds of all-inclusive offers!
                 </p>
               </div>
-              <div class="ms-1 mb-5">
+              <div class="ms-5 mt-3" style="margin-bottom: 70px">
                 <img
                   src="./img/mid/Vector.png"
                   alt="Icon 1"
-                  style="width: 35px; height: 35px"
+                  style="width: 70px; height: 70px"
                 />
               </div>
-              <div style="margin-bottom: 43px">
+              <div class="mt-4" style="margin-bottom: 70px">
                 <img
                   src="./img/mid/Vector.png"
                   alt="Icon 2"
-                  style="width: 35px; height: 35px"
+                  style="width: 70px; height: 70px"
                 />
               </div>
             </div>
@@ -569,8 +1001,8 @@
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
+              width="26"
+              height="26"
               fill="currentColor"
               class="bi bi-arrow-left-circle-fill me-3"
               viewBox="0 0 16 16"
@@ -583,8 +1015,8 @@
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
+              width="26"
+              height="26"
               fill="currentColor"
               class="bi bi-arrow-right-circle-fill"
               viewBox="0 0 16 16"
@@ -595,8 +1027,11 @@
               />
             </svg>
           </div>
-          <div class="col-6 col-md-4 col-lg-2" style="margin-right: 55px">
-            <div class="card" style="margin-bottom: 5px; width: 200px">
+          <div class="col-lg-3 col-md-4 col-sm-6" style="margin-right: 55px">
+            <div
+              class="card"
+              style="margin-bottom: 5px; width: 370px; height: 447px"
+            >
               <img
                 src="./img/mid/Image.jpg"
                 class="card-img-top"
@@ -609,22 +1044,29 @@
                 >
                   <h6
                     class="card-title mb-2"
-                    style="font-size: 14px; font-weight: bold"
+                    style="font-size: 24px; font-weight: 500; line-height: 32px"
                   >
                     Rome, Italty
                   </h6>
                   <h6
                     class="card-text mb-2 ms-4"
-                    style="font-size: 14px; color: #fd8d3a"
+                    style="
+                      font-family: Poppins;
+                      font-weight: 600;
+                      line-height: 32px;
+                      font-size: 24px;
+                      color: #fa7436;
+                    "
                   >
                     $5,42k
                   </h6>
                 </div>
-                <div class="d-flex justify-content-between align-items-center">
+
+                <div class="d-flex align-items-center pt-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="10"
+                    width="20"
+                    height="20"
                     fill="#fd8d3a"
                     class="bi bi-cursor-fill"
                     viewBox="0 0 16 16"
@@ -633,31 +1075,52 @@
                       d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"
                     />
                   </svg>
-                  <h6 class="card-text mb-0" style="font-size: 10px">
+                  <h6
+                    class="card-text mb-0 ps-3"
+                    style="
+                      font-family: Poppins;
+                      font-weight: 500;
+                      line-height: 24px;
+                      font-size: 16px;
+                      color: #666666;
+                    "
+                  >
                     10 Days Trip
                   </h6>
                   <svg
                     onclick=""
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="10"
+                    width="16"
+                    height="16"
                     fill="yellow"
-                    class="bi bi-star-fill mb-0"
+                    class="bi bi-star-fill me-2 mb-0"
                     viewBox="0 0 16 16"
-                    style="margin-left: 65px"
+                    style="margin-left: 46%"
                   >
                     <path
                       d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
                     />
                   </svg>
-                  <h6 class="card-text mb-0" style="font-size: 10px">4.8</h6>
+                  <h6
+                    class="card-text mb-0"
+                    style="
+                      font-size: 16px;
+                      font-family: Poppins;
+                      font-weight: 400;
+                      line-height: 24px;
+                    "
+                  >
+                    4.8
+                  </h6>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-6 col-md-4 col-lg-2" style="margin-right: 55px">
-            <div class="card" style="margin-bottom: 5px; width: 200px">
+          <div class="col-lg-3 col-md-4 col-sm-6" style="margin-right: 55px">
+            <div
+              class="card"
+              style="margin-bottom: 5px; width: 370px; height: 447px"
+            >
               <img
                 src="./img/mid/Image-1.png"
                 class="card-img-top"
@@ -670,22 +1133,28 @@
                 >
                   <h6
                     class="card-title mb-2"
-                    style="font-size: 14px; font-weight: bold"
+                    style="
+                      font-size: 24px;
+                      font-weight: 500;
+                      line-height: 32px;
+                      color: #222;
+                    "
                   >
-                    London,UK
+                    London, UK
                   </h6>
                   <h6
                     class="card-text mb-2 ms-4"
-                    style="font-size: 14px; color: #fd8d3a"
+                    style="font-size: 24px; color: #fa7436"
                   >
-                    $2,42k
+                    $2.42k
                   </h6>
                 </div>
-                <div class="d-flex justify-content-between align-items-center">
+
+                <div class="d-flex align-items-center pt-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="10"
+                    width="20"
+                    height="20"
                     fill="#fd8d3a"
                     class="bi bi-cursor-fill"
                     viewBox="0 0 16 16"
@@ -694,35 +1163,57 @@
                       d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"
                     />
                   </svg>
-                  <h6 class="card-text mb-0" style="font-size: 10px">
-                    07 Days Trip
+                  <h6
+                    class="card-text mb-0 ps-3"
+                    style="
+                      font-family: Poppins;
+                      font-weight: 500;
+                      line-height: 24px;
+                      font-size: 16px;
+                      color: #666666;
+                    "
+                  >
+                    7 Days Trip
                   </h6>
                   <svg
                     onclick=""
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="10"
+                    width="16"
+                    height="16"
                     fill="yellow"
-                    class="bi bi-star-fill mb-0"
+                    class="bi bi-star-fill me-2 mb-0"
                     viewBox="0 0 16 16"
-                    style="margin-left: 65px"
+                    style="margin-left: 46%"
                   >
                     <path
                       d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
                     />
                   </svg>
-                  <h6 class="card-text mb-0" style="font-size: 10px">4.7</h6>
+                  <h6
+                    class="card-text mb-0"
+                    style="
+                      font-size: 16px;
+                      font-family: Poppins;
+                      font-weight: 400;
+                      line-height: 24px;
+                    "
+                  >
+                    4.7
+                  </h6>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-6 col-md-4 col-lg-2" style="margin-right: 55px">
-            <div class="card" style="margin-bottom: 5px; width: 200px">
+          <div class="col-lg-3 col-md-4 col-sm-6" style="margin-right: 55px">
+            <div
+              class="card"
+              style="margin-bottom: 5px; width: 370px; height: 447px"
+            >
               <img
                 src="./img/mid/Image-2.png"
                 class="card-img-top"
-                alt="Oscaka"
+                alt="Osaka"
                 style="width: 100%; height: auto"
               />
               <div class="card-body" style="height: 71px">
@@ -731,22 +1222,28 @@
                 >
                   <h6
                     class="card-title mb-2"
-                    style="font-size: 14px; font-weight: bold"
+                    style="
+                      font-size: 24px;
+                      font-weight: 500;
+                      line-height: 32px;
+                      color: #222;
+                    "
                   >
-                    Osaka,Japan
+                    Osaka, Japan
                   </h6>
                   <h6
                     class="card-text mb-2 ms-4"
-                    style="font-size: 14px; color: #fd8d3a"
+                    style="font-size: 24px; color: #fa7436"
                   >
-                    $5,42k
+                    $5.42k
                   </h6>
                 </div>
-                <div class="d-flex justify-content-between align-items-center">
+
+                <div class="d-flex align-items-center pt-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="10"
+                    width="20"
+                    height="20"
                     fill="#fd8d3a"
                     class="bi bi-cursor-fill"
                     viewBox="0 0 16 16"
@@ -755,357 +1252,49 @@
                       d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"
                     />
                   </svg>
-                  <h6 class="card-text mb-0" style="font-size: 10px">
+                  <h6
+                    class="card-text mb-0 ps-3"
+                    style="
+                      font-family: Poppins;
+                      font-weight: 500;
+                      line-height: 24px;
+                      font-size: 16px;
+                      color: #666666;
+                    "
+                  >
                     10 Days Trip
                   </h6>
                   <svg
                     onclick=""
                     xmlns="http://www.w3.org/2000/svg"
-                    width="10"
-                    height="10"
+                    width="16"
+                    height="16"
                     fill="yellow"
-                    class="bi bi-star-fill mb-0"
+                    class="bi bi-star-fill me-2 mb-0"
                     viewBox="0 0 16 16"
-                    style="margin-left: 65px"
+                    style="margin-left: 46%"
                   >
                     <path
                       d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
                     />
                   </svg>
-                  <h6 class="card-text mb-0" style="font-size: 10px">4.8</h6>
+                  <h6
+                    class="card-text mb-0"
+                    style="
+                      font-size: 16px;
+                      font-family: Poppins;
+                      font-weight: 400;
+                      line-height: 24px;
+                    "
+                  >
+                    4.8
+                  </h6>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="sectionNathalia1">
-      <section>
-        <div class="container text-center mt-5">
-          <div class="row justify-content-center">
-            <div class="mt-5 mb-4">
-              <h3 style="font-family: 'Times New Roman'; font-weight: bold">
-                Get update with <span style="color: #fd8d3a">latest blog</span>
-              </h3>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-              <div class="card" style="margin-bottom: 5px; width: 145px">
-                <img
-                  src="./img/mid/Card-1.png"
-                  class="card-img-top"
-                  alt="Madrid"
-                  style="width: 100%; height: auto"
-                />
-                <div class="card-body" style="height: 69px">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h6
-                      class="card-title mb-2"
-                      style="font-size: 12px; font-weight: bold"
-                    >
-                      Madrid
-                    </h6>
-                    <svg
-                      onclick=""
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="10"
-                      height="10"
-                      fill="yellow"
-                      class="bi bi-star-fill mb-2"
-                      viewBox="0 0 16 16"
-                      style="margin-left: 40px"
-                    >
-                      <path
-                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                      />
-                    </svg>
-                    <h6 class="card-text mb-2" style="font-size: 10px">4.8</h6>
-                  </div>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="9"
-                      height="9"
-                      fill="currentColor"
-                      class="bi bi-geo-alt"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
-                      />
-                      <path
-                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-                      />
-                    </svg>
-                    <h6 class="card-text mb-0" style="font-size: 10px">Spain</h6>
-                    <h6 class="card-text mb-0 ms-4" style="font-size: 10px">
-                      <s style="color: gray">$950</s>
-                    </h6>
-                    <h6
-                      class="card-text"
-                      style="
-                        font-size: 10px;
-                        background-color: #f8d1b4;
-                        padding: 2px;
-                        margin: 2px;
-                        border-radius: 4px;
-                        color: #fd8d3a;
-                      "
-                    >
-                      $850
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-6 col-md-4 col-lg-2">
-              <div class="card" style="margin-bottom: 5px; width: 145px">
-                <img
-                  src="./img/mid/Card-2.png"
-                  class="card-img-top"
-                  alt="Firenze"
-                  style="width: 100%; height: auto"
-                />
-                <div class="card-body" style="height: 71px">
-                  <div
-                    class="d-flex justify-content-between align-items-center mb-1"
-                  >
-                    <h6
-                      class="card-title mb-2"
-                      style="font-size: 12px; font-weight: bold"
-                    >
-                      Firenze
-                    </h6>
-                    <svg
-                      onclick=""
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="10"
-                      height="10"
-                      fill="yellow"
-                      class="bi bi-star-fill mb-2"
-                      viewBox="0 0 16 16"
-                      style="margin-left: 40px"
-                    >
-                      <path
-                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                      />
-                    </svg>
-                    <h6 class="card-text mb-2" style="font-size: 10px">4.5</h6>
-                  </div>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="9"
-                      height="9"
-                      fill="currentColor"
-                      class="bi bi-geo-alt"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
-                      />
-                      <path
-                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-                      />
-                    </svg>
-                    <h6 class="card-text mb-0" style="font-size: 10px">Italy</h6>
-                    <h6 class="card-text mb-0 ms-4" style="font-size: 10px">
-                      <s style="color: gray">$850</s>
-                    </h6>
-                    <h6
-                      class="card-text"
-                      style="
-                        font-size: 10px;
-                        background-color: #f8d1b4;
-                        padding: 2px;
-                        margin: 2px;
-                        border-radius: 4px;
-                        color: #fd8d3a;
-                      "
-                    >
-                      $750
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-6 col-md-4 col-lg-2">
-              <div class="card" style="margin-bottom: 5px; width: 145px">
-                <img
-                  src="./img//mid/Card-3.png"
-                  class="card-img-top"
-                  alt="Paris"
-                  style="width: 100%; height: auto"
-                />
-                <div class="card-body" style="height: 70px">
-                  <div
-                    class="d-flex justify-content-between align-items-center mb-1"
-                  >
-                    <h6
-                      class="card-title mb-2"
-                      style="font-size: 12px; font-weight: bold"
-                    >
-                      Paris
-                    </h6>
-                    <svg
-                      onclick=""
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="10"
-                      height="10"
-                      fill="yellow"
-                      class="bi bi-star-fill mb-2"
-                      viewBox="0 0 16 16"
-                      style="margin-left: 40px"
-                    >
-                      <path
-                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                      />
-                    </svg>
-                    <h6 class="card-text mb-2" style="font-size: 10px">4.4</h6>
-                  </div>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="9"
-                      height="9"
-                      fill="currentColor"
-                      class="bi bi-geo-alt"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
-                      />
-                      <path
-                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-                      />
-                    </svg>
-                    <h6 class="card-text mb-0" style="font-size: 10px">France</h6>
-                    <h6 class="card-text mb-0 ms-3" style="font-size: 10px">
-                      <s style="color: gray">$699</s>
-                    </h6>
-                    <h6
-                      class="card-text"
-                      style="
-                        font-size: 10px;
-                        background-color: #f8d1b4;
-                        padding: 2px;
-                        margin: 2px;
-                        border-radius: 4px;
-                        color: #fd8d3a;
-                      "
-                    >
-                      $599
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-6 col-md-4 col-lg-2">
-              <div class="card" style="margin-bottom: 5px; width: 145px">
-                <img
-                  src="./img/mid/Card-4.png"
-                  class="card-img-top"
-                  alt="London"
-                  style="width: 100%; height: auto"
-                />
-                <div class="card-body" style="height: 70px">
-                  <div
-                    class="d-flex justify-content-between align-items-center mb-1"
-                  >
-                    <h6
-                      class="card-title mb-2"
-                      style="font-size: 12px; font-weight: bold"
-                    >
-                      London
-                    </h6>
-                    <svg
-                      onclick=""
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="10"
-                      height="10"
-                      fill="yellow"
-                      class="bi bi-star-fill mb-2"
-                      viewBox="0 0 16 16"
-                      style="margin-left: 40px"
-                    >
-                      <path
-                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                      />
-                    </svg>
-                    <h6 class="card-text mb-2" style="font-size: 10px">4.8</h6>
-                  </div>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="9"
-                      height="9"
-                      fill="currentColor"
-                      class="bi bi-geo-alt"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
-                      />
-                      <path
-                        d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-                      />
-                    </svg>
-                    <h6 class="card-text mb-0" style="font-size: 10px">UK</h6>
-                    <h6 class="card-text mb-0 ms-4" style="font-size: 10px">
-                      <s style="color: gray">$850</s>
-                    </h6>
-                    <h6
-                      class="card-text"
-                      style="
-                        font-size: 10px;
-                        background-color: #f8d1b4;
-                        padding: 2px;
-                        margin: 2px;
-                        border-radius: 4px;
-                        color: #fd8d3a;
-                      "
-                    >
-                      $850
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="mt-3 mb-5">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                class="bi bi-arrow-left-circle-fill me-2"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill="#d3d3d3"
-                  d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"
-                />
-              </svg>
-  
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                class="bi bi-arrow-right-circle-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill="#fd8d3a"
-                  d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </section>
     </section>
     <section class="sectionNathalia2">
       <div class="containerOrange">
@@ -1147,8 +1336,8 @@
             <p>Low fare tips</p>
           </div>
         </div>  
-         
+        
       </div>
   </section>
-</body>
+  </body>
 </html>
