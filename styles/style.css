@@ -1,13 +1,14 @@
-.section-second {
-  background-color: #f7f8fc;
-  height: 724px;
-}
 :root {
   --main: var(--bs-primary);
 }
-li {
+
+body {
   margin: 0;
   padding: 0;
+}
+.section-second {
+  background-color: #f7f8fc;
+  height: 724px;
 }
 
 .header {
@@ -24,15 +25,13 @@ li {
   margin-left: 65px;
   width: 85%;
   height: 85%;
-  border-radius: 50%; /* Hacer un círculo perfecto */
+  border-radius: 50%;
   background: conic-gradient(from 90deg, #fa7436 50%, #f7f8fc 50%);
 }
 
 .footer {
   background-color: orange;
 }
-
-
 
 /*Estilos Nathi*/
 .cuadro-blanco {
@@ -49,13 +48,14 @@ li {
   box-sizing: border-box; /* Asegura que el padding no afecte las dimensiones establecidas */
 }
 
-
 .containerOrange {
   border-radius: 16px;
-  margin: 80px;
-  background-color: #FA7436;
-  width: 1170.25px;
+  margin: 0px 0% 0% 7%;
+  background-color: #fa7436;
+  width: 100%;
   height: 416px;
+  top: 200px;
+  margin-bottom: 80px;
   position: relative;
 }
 .palmeras {
@@ -64,17 +64,13 @@ li {
   right: 0px;
 }
 .circulos {
-position: absolute;
-margin-top: 97px;
-width: 425px;
+  position: absolute;
+  margin-top: 97px;
+  width: 425px;
 }
 
-.subscribeContainer {
-  height: 500px;
-}
 .containerOrange h1 {
-  
-  padding: 50px 25%;
+  padding: 90px 25%;
   color: white;
   height: 124px;
   font-family: Volkhov;
@@ -84,66 +80,68 @@ width: 425px;
 }
 /* Estilos para la barra de búsqueda */
 .search-container {
-max-width: 600px;
-margin: 120px auto;
+  max-width: 600px;
+  margin: 120px auto;
 }
 
 /* Estilos para el contenedor flex que envuelve el campo de entrada y el botón */
 .search-wrapper {
-display: flex;
-position: relative;
+  display: flex;
+  position: relative;
+  height: 68px;
+  width: 674px;
 }
 
 /* Estilos para el campo de entrada de búsqueda */
 .search-wrapper input[type="text"] {
-flex: 1;
-padding: 20px;
-border: 1px solid #ccc;
-border-radius: 5px;
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
 /* Estilos para el botón de búsqueda */
 .search-wrapper button[type="submit"] {
-position: absolute;
-right: 8px;
-top: 10px;
-padding: 10px 20px;
-background-color: #FA7436;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  padding: 10px 20px;
+  background-color: #fa7436;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 /* Estilos cuando el cursor está sobre el botón de búsqueda */
 .search-wrapper button[type="submit"]:hover {
-background-color:#0056b3;
+  background-color: #0056b3;
 }
 
 .footerContainer {
-display: flex;
-margin: 100px;
-justify-content: space-between;
+  display: flex;
 }
 .footerContainer h4 {
-color: #222222;
+  color: #222222;
 }
 
 .footerOne {
-width: 250px;
+  width: 250px;
 }
-.footerOne h4{
-font-family: Volkhov;
+.footerOne h4 {
+  font-family: Volkhov;
 }
 .footerTwo {
-display: flex;
-gap: 100px;
+  display: flex;
+  gap: 100px;
+  padding-left: 17%;
 }
-.footerTwo h4{
-font-size: 18px;
+.footerTwo h4 {
+  font-size: 18px;
 }
-.footerOne,
-.footerTwo > div {
-margin-right: 20px; /* Ajusta el espacio entre los elementos según sea necesario */
+/*  */
+.imgContact {
+  display: flex;
+  align-items: center;
+  gap: rem;
 }
